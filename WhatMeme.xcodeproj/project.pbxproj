@@ -13,7 +13,6 @@
 		7F84CCFA20C6F5A600626C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F84CCF820C6F5A600626C85 /* Main.storyboard */; };
 		7F84CCFC20C6F5A600626C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F84CCFB20C6F5A600626C85 /* Assets.xcassets */; };
 		7F84CCFF20C6F5A600626C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F84CCFD20C6F5A600626C85 /* LaunchScreen.storyboard */; };
-		7F84CD0720C6F60100626C85 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7F84CD0620C6F60100626C85 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		7F84CCFB20C6F5A600626C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F84CCFE20C6F5A600626C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F84CD0020C6F5A600626C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F84CD0620C6F60100626C85 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				7F84CCFB20C6F5A600626C85 /* Assets.xcassets */,
 				7F84CCFD20C6F5A600626C85 /* LaunchScreen.storyboard */,
 				7F5229B021E7C221008FE71E /* MemeModel.mlmodel */,
-				7F84CD0620C6F60100626C85 /* Inceptionv3.mlmodel */,
 				7F84CD0020C6F5A600626C85 /* Info.plist */,
 			);
 			path = MyCore;
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F84CCF720C6F5A600626C85 /* ViewController.swift in Sources */,
-				7F84CD0720C6F60100626C85 /* Inceptionv3.mlmodel in Sources */,
 				7F5229B121E7C221008FE71E /* MemeModel.mlmodel in Sources */,
 				7F84CCF520C6F5A600626C85 /* AppDelegate.swift in Sources */,
 			);
