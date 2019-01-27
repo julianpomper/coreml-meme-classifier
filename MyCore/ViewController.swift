@@ -16,6 +16,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     let imagePicker = UIImagePickerController()
     
     @IBOutlet weak var resultLabel: UILabel!
+    //dsd
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
